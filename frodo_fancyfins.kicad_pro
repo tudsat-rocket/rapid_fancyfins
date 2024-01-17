@@ -330,6 +330,34 @@
     [
       "f596181b-af4a-49cd-ae55-6bc6078ac95d",
       "LED_grouped"
+    ],
+    [
+      "8bba7d38-acee-4782-a895-96fbcfc0ab4d",
+      "LED_grouped1"
+    ],
+    [
+      "645b2b11-5a14-4b4b-b42b-b44981d3139d",
+      "LED_grouped2"
+    ],
+    [
+      "15abadb8-6b96-4eda-b96f-07d31b002109",
+      "LED_grouped3"
+    ],
+    [
+      "bdde9e62-bcf5-4ee3-ae4f-f135cd0ebfa5",
+      "LED_grouped5"
+    ],
+    [
+      "c4703650-e59d-478f-8d8e-d0a204274d59",
+      "LED_grouped4"
+    ],
+    [
+      "ec07a5ea-825c-43f9-b09f-61400ebcb8aa",
+      "LED_grouped6"
+    ],
+    [
+      "29387765-f9b6-4cfc-8070-1f8691cc6c74",
+      "LED_grouped7"
     ]
   ],
   "text_variables": {}

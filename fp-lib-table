@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "frodo_fancyfins")(type "KiCad")(uri "${KIPRJMOD}/frodo_fancyfins.pretty")(options "")(descr ""))
+)

@@ -1,4 +1,5 @@
 *-bak
+*.bak
 *-cache.lib
 *.net
 *.gbr

@@ -1,6 +1,7 @@
 (footprint "meandering_monopole_antenna_868MHz" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
+  (net_tie_pad_groups "1,2")
   (fp_text reference "ANT" (at 0 2 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp aa8b3c4c-fddc-4f4e-b59c-ee826c605d7e)
@@ -15,8 +16,8 @@
   )
   (fp_poly
     (pts
-      (xy -1 -1)
-      (xy 1 -1)
+      (xy -1 1)
+      (xy 1 1)
       (xy 1 -8)
       (xy 19 -8)
       (xy 19 -15)
@@ -77,7 +78,7 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 2cb25c21-cb35-46b2-89fc-843ab86a354a))
-  (pad "1" smd circle (at 0 -1) (size 2 2) (layers "F.Cu") (tstamp 42416145-66e5-4a04-9b01-a463269aeaf9))
+  (pad "1" smd circle (at 0 1) (size 2 2) (layers "F.Cu") (tstamp 42416145-66e5-4a04-9b01-a463269aeaf9))
   (pad "2" thru_hole circle (at -18 -18.5) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp e625fb9b-3875-41ab-b31e-c6920ad954f1))
   (pad "2" thru_hole circle (at -18 -17) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp f4a33c15-9582-4c21-923a-4d7c92c15ed2))
   (pad "2" thru_hole circle (at -18 -15.5) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp 87f2ddd8-3e3a-41ba-923e-dd4a987300f5))
@@ -166,7 +167,7 @@
   (zone (net 0) (net_name "") (layers "*.Cu" "*.Paste" "*.Mask") (tstamp c42b8217-6391-46bc-9d1b-a5f8f2fed24c) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts

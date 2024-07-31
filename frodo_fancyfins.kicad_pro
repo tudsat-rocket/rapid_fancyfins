@@ -492,8 +492,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../Downloads/frodo_fancyfins.step",
+      "vrml": "../../../Downloads/frodo_fancyfins.wrl"
     },
     "page_layout_descr_file": ""
   },

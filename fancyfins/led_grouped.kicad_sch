@@ -1,0 +1,2020 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "80623238-5d06-4002-94de-d90a569350a1")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Inolux_IN-PI554FCH_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D3"
+				(at -4.572 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3210"
+				(at -4.572 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "fancyfins:1313210530000"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1313210530000.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WL-ICLED LED mit integriertem Controller side view"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Art. Nr." "1313210530000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*IN-PI554FCH*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:Inolux_IN-PI554FCH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "Inolux_IN-PI554FCH"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*IN-PI554FCH*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:L78L05_SOT89"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L05_SOT89"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L78L05_SOT89_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L78L05_SOT89_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 116.84 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b86da281-a93a-43f4-86dc-21646350de0e)
+	)
+	(text "LED - power supply combination"
+		(exclude_from_sim no)
+		(at 15.24 17.78 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8e1edc4-06e5-40f6-a495-dabafc4c601a")
+	)
+	(text "One L78L05 supplies up to 100mA while one LED\ndraws up to 3*16mA. Splitting the LDOs up into\nmultiple smaller ones ensures distribution of\nheat generation."
+		(exclude_from_sim no)
+		(at 63.5 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c108d0-1508-4cfe-923a-f1a332a115be")
+	)
+	(junction
+		(at 19.05 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d803419-d8f3-4946-b38e-542d7a57f8fc")
+	)
+	(junction
+		(at 49.53 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aea483a-2a6d-4ea9-83cb-0a9e8cfd223f")
+	)
+	(junction
+		(at 59.69 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5297c6-ce4f-470b-b490-2227bb8c9ea2")
+	)
+	(junction
+		(at 34.29 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6170e9c-8002-4e1e-a501-c8050b6e4bde")
+	)
+	(junction
+		(at 41.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c844dc80-af66-44e4-97af-d0e147764105")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 34.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c992877-99ab-4e40-a5c2-9e05fd564b7e")
+	)
+	(wire
+		(pts
+			(xy 19.05 29.21) (xy 26.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3311a6af-4ebe-4423-a440-0905277a277f")
+	)
+	(wire
+		(pts
+			(xy 19.05 26.67) (xy 19.05 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a69df9-cb17-4ec9-b71f-c1553dd710ba")
+	)
+	(wire
+		(pts
+			(xy 41.91 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cda194b-d606-466d-a135-e7f8fb2a9efb")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 59.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42030a20-e277-41b9-88eb-faec646fd8e2")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e10b4d-78f5-4284-ac29-1eeee2359b14")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b2e14-52e5-4846-9b51-8290dabcd1bc")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.47) (xy 59.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57364789-ebf9-4ad7-bca9-e52b0b302719")
+	)
+	(wire
+		(pts
+			(xy 59.69 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a863475-b790-4930-ae8e-d2608e78aac3")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 59.69 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63728edc-db90-4a78-9a3a-466ea9c3e7af")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d9e9b7-8c7f-4f97-a34e-065186fc3bfa")
+	)
+	(wire
+		(pts
+			(xy 34.29 36.83) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852cc62f-eaef-4b70-9fcc-787d3ed43659")
+	)
+	(wire
+		(pts
+			(xy 19.05 39.37) (xy 19.05 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3072d3-0371-4b32-9122-cb205c4e3b78")
+	)
+	(wire
+		(pts
+			(xy 19.05 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d94e62c-0deb-4529-a9c1-02b24e906c7e")
+	)
+	(wire
+		(pts
+			(xy 19.05 31.75) (xy 19.05 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec8260c-4c19-40f5-b1e0-20fb94e496ed")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.47) (xy 41.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11d7ab2-6e91-481e-aac1-6418e4ebccfe")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 49.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b8f992-1e0d-4aed-894a-e53c22845309")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65bcfb7-45f1-4156-8234-15a75de1bfd6")
+	)
+	(wire
+		(pts
+			(xy 49.53 41.91) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e266ec6c-cf51-425c-b34c-08a7f49d3fef")
+	)
+	(wire
+		(pts
+			(xy 41.91 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71cd866-4082-483b-9c97-222674d6e6ea")
+	)
+	(wire
+		(pts
+			(xy 49.53 64.77) (xy 52.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec6f9aa-a517-4539-bbbc-95e86f80457b")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 19.05 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "616ac07f-8218-44cd-88c7-ab4b9124c8cb")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 34.29 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76ba970a-cc48-459d-8638-f7ec301fb733")
+	)
+	(hierarchical_label "DO"
+		(shape input)
+		(at 67.31 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abbc8b52-6868-4b43-801b-43c1d2aadbcf")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 49.53 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee95c98-a15c-45ac-bf2a-18ab483f4ed4")
+		(property "Reference" "C22"
+			(at 53.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 50.4952 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1525"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e56fdd6a-bfdc-4a8b-a082-d8747f1c3c22")
+		)
+		(pin "1"
+			(uuid "2c76aef9-65ab-4f25-84b8-87ce2cbd373c")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 59.69 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "311b6581-1a80-4235-a49a-0762dc19bcb8")
+		(property "Reference" "D15"
+			(at 55.372 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3210"
+			(at 55.372 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fancyfins:1313210530000"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1313210530000.pdf"
+			(at 62.23 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED LED mit integriertem Controller side view"
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Art. Nr." "1313210530000"
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "df2c5d47-6da6-4bb5-ba68-a63f6695bc42")
+		)
+		(pin "2"
+			(uuid "81a510ae-df2d-4cf6-ab53-770f8be3532a")
+		)
+		(pin "3"
+			(uuid "e9f41e42-1d9e-4ebd-bfdc-5665acfa20f6")
+		)
+		(pin "1"
+			(uuid "edeb9061-11ed-4503-a3b1-8fc38329c725")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Inolux_IN-PI554FCH_1")
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 41.91 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d33438-e5da-4c41-8cd2-a878de2100d3")
+		(property "Reference" "D5"
+			(at 37.338 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3210"
+			(at 37.338 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fancyfins:1313210530000"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1313210530000.pdf"
+			(at 44.45 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED LED mit integriertem Controller side view"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Art. Nr." "1313210530000"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4107b6fc-6a31-49c6-a1d1-5d76a2091590")
+		)
+		(pin "2"
+			(uuid "f34fb27d-3648-4f84-842d-9f3ce906507f")
+		)
+		(pin "3"
+			(uuid "ffb11d7f-1edc-4fe0-9686-e8655de2156c")
+		)
+		(pin "1"
+			(uuid "95d97981-7e27-47e8-9f09-b5e3d9668670")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55361a58-cedf-4e58-8c31-7b193bdd4a41")
+		(property "Reference" "#PWR032"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "792774f6-e2fe-4f4b-a494-7e360028340a")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 19.05 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95b8d1b1-3f85-47e1-b221-b00299fe4d2c")
+		(property "Reference" "C21"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330n"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 20.0152 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 330nF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5448882"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "898baf3d-95aa-44b7-9364-001116c3a3d3")
+		)
+		(pin "1"
+			(uuid "8dc926a9-152e-4d1d-aee0-5084b48b640e")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L78L05_SOT89")
+		(at 34.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59a6860-db46-412d-a28b-7bd9565de499")
+		(property "Reference" "U8"
+			(at 34.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L05_SOT89"
+			(at 34.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 34.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C42738"
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 34.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2927214-fb4c-4d07-8e86-ae6b871d2660")
+		)
+		(pin "2"
+			(uuid "42505d65-cf5d-49fd-bc07-18934485ea0a")
+		)
+		(pin "3"
+			(uuid "390627fc-4ecc-4177-8bb7-bed608f72e37")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad56cb8-10ac-46ca-b805-b656d20e92fa")
+		(property "Reference" "#PWR034"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6b6ae8b-2956-4a4b-9893-60394a564bb3")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/065eba4c-f093-4293-9a9b-1771a1888b04"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/2324b38b-829e-4c80-8eed-e7ce81497f9c"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/775316bf-87ad-4339-a4fe-fce06b597a79"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/810a0cee-6c34-4dd3-9ad1-378d5b1cd768"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/97f61ab4-f953-4455-addb-9c93d6647dcf"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a62788c9-1372-45e6-86ed-90f2f378099f"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/a6687284-e529-4b91-8285-80e2633db003"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/b581750f-8d66-4ec1-9271-ada9c8c6d1ac"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d67144a2-bfac-4e45-a989-7010c86ed2ff"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754/d95388c1-bc95-4340-8413-e6d374003e23"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

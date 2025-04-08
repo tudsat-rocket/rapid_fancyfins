@@ -548,9 +548,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Downloads/frodo_fancyfins.step",
+      "step": "frodo_fancyfins.step",
       "svg": "",
-      "vrml": "../../../Downloads/frodo_fancyfins.wrl"
+      "vrml": "../common/fancyfins.pretty/frodo_fancyfins.wrl"
     },
     "page_layout_descr_file": ""
   },

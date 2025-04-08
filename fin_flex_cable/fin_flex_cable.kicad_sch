@@ -1633,7 +1633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "fancyfins:009159008801906"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -1728,7 +1728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "fancyfins:009159008801906"
 			(at 45.72 59.69 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "fancyfins:009159008801906"
 			(at 83.82 59.69 0)
 			(effects
 				(font

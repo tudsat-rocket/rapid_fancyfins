@@ -7893,6 +7893,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 196.85) (xy 309.88 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731f680b-f9b7-44cb-9e75-9093b5e9764d")
+	)
+	(wire
+		(pts
 			(xy 124.46 132.08) (xy 140.97 132.08)
 		)
 		(stroke
@@ -8133,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 201.93) (xy 314.96 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a6c60a-b384-4559-b03f-ee364e62ee2a")
+	)
+	(wire
+		(pts
 			(xy 317.5 138.43) (xy 317.5 139.7)
 		)
 		(stroke
@@ -8300,6 +8320,16 @@
 			(type default)
 		)
 		(uuid "a25ceefb-9029-4bab-b233-aa534ead7680")
+	)
+	(wire
+		(pts
+			(xy 309.88 196.85) (xy 309.88 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a442a4e6-d6f8-464c-8dc8-6d84f2f99a77")
 	)
 	(wire
 		(pts
@@ -12436,6 +12466,72 @@
 			(project "frodo_fancyfins"
 				(path "/6b822b14-450b-45c3-a34b-8e18c5811754"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49ae33c8-300c-4a7c-872c-e932fc67b63c")
+		(property "Reference" "#PWR090"
+			(at 309.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 203.8334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c29c9ac-9a9a-4fc8-b404-4e24ad89387a")
+		)
+		(instances
+			(project "frodo_fancyfins"
+				(path "/6b822b14-450b-45c3-a34b-8e18c5811754"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)

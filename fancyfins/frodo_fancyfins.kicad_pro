@@ -671,46 +671,6 @@
     [
       "6b822b14-450b-45c3-a34b-8e18c5811754",
       "Root"
-    ],
-    [
-      "2fce6888-2de7-4d0b-835d-90cacb24dfb0",
-      "LED_grouped1"
-    ],
-    [
-      "97f61ab4-f953-4455-addb-9c93d6647dcf",
-      "LED_grouped"
-    ],
-    [
-      "6e39b4b5-b966-44c7-b43c-b1f0c0003d03",
-      "LED_grouped2"
-    ],
-    [
-      "775316bf-87ad-4339-a4fe-fce06b597a79",
-      "LED_grouped3"
-    ],
-    [
-      "810a0cee-6c34-4dd3-9ad1-378d5b1cd768",
-      "LED_grouped4"
-    ],
-    [
-      "ce4fb4d9-054b-45b6-b37a-a311e4e65b14",
-      "LED_grouped5"
-    ],
-    [
-      "e85f4fc4-598d-4112-bbb9-b0566ebdb418",
-      "LED_grouped6"
-    ],
-    [
-      "d95388c1-bc95-4340-8413-e6d374003e23",
-      "LED_grouped7"
-    ],
-    [
-      "d67144a2-bfac-4e45-a989-7010c86ed2ff",
-      "LED_grouped8"
-    ],
-    [
-      "065eba4c-f093-4293-9a9b-1771a1888b04",
-      "LED_grouped9"
     ]
   ],
   "text_variables": {}

@@ -7273,7 +7273,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 30.48) (xy 190.5 30.48)
+			(xy 189.23 30.48) (xy 201.93 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8880,16 +8880,6 @@
 			(type default)
 		)
 		(uuid "e994b758-4216-48e0-b847-0dc05be5ba12")
-	)
-	(wire
-		(pts
-			(xy 198.12 30.48) (xy 201.93 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ca9d4b-9152-40ae-bfc8-53d5fdb580f0")
 	)
 	(wire
 		(pts
@@ -11712,91 +11702,6 @@
 			(project "frodo_fancyfins"
 				(path "/6b822b14-450b-45c3-a34b-8e18c5811754"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 194.31 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "301524b2-06b2-47a9-b30a-952c4bcc766d")
-		(property "Reference" "D22"
-			(at 194.31 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 194.31 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C167645"
-			(at 194.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "009412d5-db49-450b-b43d-be09fd5640e5")
-		)
-		(pin "1"
-			(uuid "ac88125b-b7ad-425f-9011-66897ad9fc1c")
-		)
-		(instances
-			(project "frodo_fancyfins"
-				(path "/6b822b14-450b-45c3-a34b-8e18c5811754"
-					(reference "D22")
 					(unit 1)
 				)
 			)

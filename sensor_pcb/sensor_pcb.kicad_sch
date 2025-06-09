@@ -937,7 +937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/2513130810301.pdf"
+		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.we-online.com/components/products/datasheet/2513130810301.pdf"
 			(at 93.98 45.72 0)
 			(effects
 				(font

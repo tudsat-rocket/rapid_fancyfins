@@ -526,12 +526,6 @@
 		(color 0 0 0 0)
 		(uuid "dad15dd1-3408-45a4-a2c7-087e81f19ed0")
 	)
-	(junction
-		(at 91.44 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a143e9-5248-4c9a-ba67-9f1b71e5e13d")
-	)
 	(no_connect
 		(at 71.12 33.02)
 		(uuid "01e22f75-5088-4342-b95a-56a3efdeef22")
@@ -570,16 +564,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092b4326-366c-49d8-b00b-0e67b28b3311")
-	)
-	(wire
-		(pts
 			(xy 53.34 59.69) (xy 57.15 59.69)
 		)
 		(stroke
@@ -600,7 +584,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 93.98 52.07)
+			(xy 57.15 52.07) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +904,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 91.44 52.07)
+			(xy 91.44 49.53) (xy 91.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -957,16 +941,6 @@
 			(type dot)
 		)
 		(uuid "f3b106ad-a681-4777-9dab-5635a7bac928")
-	)
-	(wire
-		(pts
-			(xy 57.15 52.07) (xy 91.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8764f8d-ea9f-47d2-8d20-4b019cbc7f0b")
 	)
 	(global_label "CAN_H_2"
 		(shape input)

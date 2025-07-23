@@ -7834,12 +7834,6 @@
 		(uuid "15ffcf10-7ca5-4bb7-905f-fd0728294250")
 	)
 	(junction
-		(at 163.83 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "163d8319-139a-4127-9d05-922ec28769bf")
-	)
-	(junction
 		(at 156.21 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8006,6 +8000,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f9f0de7-a87c-46dc-84b8-3a8476a763bb")
+	)
+	(junction
+		(at 185.42 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff75ce4-2a3d-4a2e-9a60-ca08e429ddf9")
 	)
 	(junction
 		(at 223.52 39.37)
@@ -8484,10 +8484,6 @@
 		(uuid "3da44597-49aa-4009-9859-b5abe043b99f")
 	)
 	(no_connect
-		(at 177.8 81.28)
-		(uuid "471a8f02-c474-458e-b958-2a03dfcf9099")
-	)
-	(no_connect
 		(at 369.57 39.37)
 		(uuid "4b107837-4df9-4d74-b056-e107fb754d14")
 	)
@@ -8530,10 +8526,6 @@
 	(no_connect
 		(at 334.01 82.55)
 		(uuid "8513ff27-6fd5-47dc-80e7-df67fc0b39f9")
-	)
-	(no_connect
-		(at 177.8 83.82)
-		(uuid "8525760b-8e15-4b40-b729-64a08e0119c6")
 	)
 	(no_connect
 		(at 369.57 100.33)
@@ -8594,6 +8586,14 @@
 	(no_connect
 		(at 369.57 80.01)
 		(uuid "d6534dab-a1d5-4391-8e58-b89a3a2aec7d")
+	)
+	(no_connect
+		(at 165.1 86.36)
+		(uuid "d8348e6d-9a57-44f3-be58-f5712ee55d02")
+	)
+	(no_connect
+		(at 177.8 83.82)
+		(uuid "d9757585-4b5e-4a6c-8877-0c599ee9d7d8")
 	)
 	(no_connect
 		(at 334.01 57.15)
@@ -8884,16 +8884,6 @@
 			(type default)
 		)
 		(uuid "0aee83b2-2226-421f-9c1f-87102137f7cd")
-	)
-	(wire
-		(pts
-			(xy 163.83 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b2b16e3-0ad2-4e30-b626-546fc0dd4c41")
 	)
 	(wire
 		(pts
@@ -9897,16 +9887,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 163.83 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b88808-b5cf-44de-8b7c-b77b37a4c5ba")
-	)
-	(wire
-		(pts
 			(xy 195.58 241.3) (xy 195.58 257.81)
 		)
 		(stroke
@@ -10817,6 +10797,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb2a252-3645-4e89-bd8d-0eb9ed8130bc")
+	)
+	(wire
+		(pts
 			(xy 38.1 198.12) (xy 38.1 199.39)
 		)
 		(stroke
@@ -11654,16 +11644,6 @@
 			(type default)
 		)
 		(uuid "95d68503-53c0-4afa-882d-28f39ee8f845")
-	)
-	(wire
-		(pts
-			(xy 163.83 86.36) (xy 163.83 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f4240b-4bc5-4c69-84f0-744188a4a8c2")
 	)
 	(wire
 		(pts
@@ -12974,6 +12954,16 @@
 			(type default)
 		)
 		(uuid "d3fe8c80-f4d7-4967-bb40-36011a3b2f4f")
+	)
+	(wire
+		(pts
+			(xy 185.42 82.55) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46f862a-fdc6-49a3-a381-189b8f78f5f0")
 	)
 	(wire
 		(pts
@@ -16525,7 +16515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 384.81 140.208 90)
 			(effects
 				(font
@@ -17776,7 +17766,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "3A"
 			(at 30.48 118.11 90)
 			(effects
 				(font
@@ -19954,7 +19944,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 162.56 86.36 90)
+		(at 185.42 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19963,7 +19953,7 @@
 		(fields_autoplaced yes)
 		(uuid "50170ad4-ee92-400e-ba82-b7ba7fee3ac6")
 		(property "Reference" "#FLG04"
-			(at 160.655 86.36 0)
+			(at 185.42 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19972,7 +19962,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 158.75 86.3599 90)
+			(at 185.4201 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19982,7 +19972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 86.36 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19991,7 +19981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20000,7 +19990,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 86.36 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25184,7 +25174,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SK34"
 			(at 41.91 118.11 0)
 			(effects
 				(font
@@ -25193,7 +25183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -25202,7 +25192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410122031_MSKSEMI-SK34_C5140034.pdf"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -25211,15 +25201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -25228,7 +25210,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C167645"
+		(property "Wert" "SK34"
+			(at 41.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5140034"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -27539,16 +27530,15 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 163.83 90.17 0)
+		(at 185.42 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ced65072-e882-43bd-87b7-6adab14ac61f")
 		(property "Reference" "#PWR033"
-			(at 163.83 96.52 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27557,7 +27547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 95.25 0)
+			(at 185.42 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27565,7 +27555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 90.17 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27574,7 +27564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 90.17 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27583,7 +27573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 90.17 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27595,7 +27585,7 @@
 			(uuid "e5a89426-806e-4c5d-a399-370ee12e7f1f")
 		)
 		(instances
-			(project ""
+			(project "frodo_fancyfins"
 				(path "/6b822b14-450b-45c3-a34b-8e18c5811754"
 					(reference "#PWR033")
 					(unit 1)
